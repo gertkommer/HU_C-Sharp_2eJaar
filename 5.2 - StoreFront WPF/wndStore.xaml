@@ -1,0 +1,18 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="_5._2___StoreFront_WPF.wndStore"
+        Title="Baas Store" Height="302" Width="385">
+    <Grid>
+        <Label Content="Store" HorizontalAlignment="Left" Margin="192,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Inventory" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="lboxInventory" HorizontalAlignment="Left" Height="170" Margin="10,41,0,0" VerticalAlignment="Top" Width="177"/>
+        <ListBox x:Name="lboxProducts" HorizontalAlignment="Left" Height="170" Margin="192,41,0,0" VerticalAlignment="Top" Width="175"/>
+        <Button x:Name="btnRefresh" Content="Refresh" HorizontalAlignment="Left" Margin="292,215,0,0" VerticalAlignment="Top" Width="75" Click="btnRefresh_Click"/>
+        <Button x:Name="btnBuy" Content="Buy" HorizontalAlignment="Left" Margin="212,215,0,0" VerticalAlignment="Top" Width="75" Click="btnBuy_Click"/>
+        <Label x:Name="lblMoneyLeft" Content="Money left:" HorizontalAlignment="Left" Margin="10,212,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblMoneyLeft2" Content="€0,00" HorizontalAlignment="Left" Margin="85,212,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblError" Content="" HorizontalAlignment="Left" Margin="10,238,0,0" VerticalAlignment="Top" Foreground="Red"/>
+
+    </Grid>
+</Window>
